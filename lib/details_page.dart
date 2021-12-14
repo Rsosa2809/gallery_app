@@ -89,11 +89,11 @@ class DetailsPage extends StatelessWidget {
                             Navigator.pop(context);
                           },
                           padding: EdgeInsets.symmetric(vertical: 15),
-                          color: Colors.lightBlueAccent,
+                          color: Colors.purple,
                           child: Text(
                             'Atras',
                             style: TextStyle(
-                              color: Colors.red,
+                              color: Colors.white,
                             ),
                           ),
                         ),
@@ -105,9 +105,9 @@ class DetailsPage extends StatelessWidget {
                         child: FlatButton(
                           onPressed: () {},
                           padding: EdgeInsets.symmetric(vertical: 15),
-                          color: Colors.lightBlueAccent,
+                          color: Colors.red.shade400,
                           child: Text(
-                            'Perdir',
+                            'Perdir: 981-136-7727',
                             style: TextStyle(
                               color: Colors.white,
                             ),

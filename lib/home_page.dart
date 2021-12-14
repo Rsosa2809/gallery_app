@@ -6,14 +6,15 @@ List<ImageDetails> _images = [
     imagePath: 'images/1.jpeg',
     price: '\$MXN 145.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
-    details: 'Blusa de cuello V con encaje en contraste - Talla: XS S M L',
+    title: 'Blusa',
+    details:
+        'SHEIN Blusa de cuello V con encaje en contraste - Talla: XS S M L',
   ),
   ImageDetails(
     imagePath: 'images/2.jpeg',
     price: '\$MXN 192.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
+    title: 'Camiseta',
     details:
         'Camiseta de manga corta con estampado de Navidad - Talla: XS S M L',
   ),
@@ -21,44 +22,44 @@ List<ImageDetails> _images = [
     imagePath: 'images/3.jpeg',
     price: '\$MXN 98.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
-    details: 'Top de tirantes de lunares con fruncido - Talla: XS S M L',
+    title: 'Top',
+    details: 'SHEIN Top de tirantes de lunares con fruncido - Talla: XS S M L',
   ),
   ImageDetails(
     imagePath: 'images/4.jpeg',
     price: '\$MXN 138.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
-    details: 'Top con cinturón cruzado floral - Talla: XS S M L',
+    title: 'Top',
+    details: 'SHEIN Top con cinturón cruzado floral - Talla: XS S M L',
   ),
   ImageDetails(
     imagePath: 'images/5.jpeg',
     price: '\$MXN 171.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
+    title: 'Luces LED',
     details:
-        '10 Luces LED de cadena de muñeco de nieve de Navidad - Talla:  Unitalla',
+        '10 Luces LED de cadena de muñeco de nieve de Navidad - Talla: Unitalla',
   ),
   ImageDetails(
     imagePath: 'images/6.jpeg',
     price: '\$MXN 161.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
-    details: 'Camiseta de Navidad con estampado de pingüino',
+    title: 'Camiseta',
+    details: 'Camiseta de Navidad con estampado de pingüino - Talla: XS S M L',
   ),
   ImageDetails(
     imagePath: 'images/7.jpeg',
     price: '\$MXN 179.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
+    title: 'Vestido',
     details:
-        'Vestido con malla con perla ribete en forma de lechuga Talla: XS S M L',
+        'SHEIN Vestido con malla con perla ribete en forma de lechuga - Talla: XS S M L',
   ),
   ImageDetails(
     imagePath: 'images/8.jpeg',
     price: '\$MXN 169.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
+    title: 'Vestido',
     details:
         'Vestido de niña de rayas con estampado de animal - Talla: XS S M L',
   ),
@@ -66,17 +67,17 @@ List<ImageDetails> _images = [
     imagePath: 'images/9.jpeg',
     price: '\$MXN 441.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
+    title: 'Vestido',
     details:
-        'Vestido de niña de cuello alto Camiseta con botón y cinturón - Talla: XS S M L',
+        'SHEIN Vestido de niña de cuello alto Camiseta con botón y cinturón - Talla: XS S M L',
   ),
   ImageDetails(
     imagePath: 'images/10.jpeg',
     price: '\$MXN 200.00',
     photographer: 'SHEIN',
-    title: 'SHEIN',
+    title: 'Camiseta',
     details:
-        'Camiseta con estampado de Navidad de malla transparente - Talla: XS S M L',
+        'SHEIN Camiseta con estampado de Navidad de malla transparente - Talla: XS S M L',
   ),
   ImageDetails(
     imagePath: 'images/11.jpeg',
@@ -121,13 +122,42 @@ List<ImageDetails> _images = [
     title: 'Camiseta',
     details: 'SHEIN Camiseta de Navidad con slogan - Talla: XS S M L',
   ),
+  ImageDetails(
+    imagePath: 'images/17.jpg',
+    price: '\$MXN 256.00',
+    photographer: 'SHEIN',
+    title: 'Mono',
+    details: 'SHEIN Mono de tirantes pecho con fruncido - Talla: XS S M L',
+  ),
+  ImageDetails(
+    imagePath: 'images/18.jpeg',
+    price: '\$MXN 149.00',
+    photographer: 'SHEIN',
+    title: 'Top',
+    details:
+        'SHEIN Top con nudo delantero con diseño de abertura - Talla: XS S M L',
+  ),
+  ImageDetails(
+    imagePath: 'images/19.jpeg',
+    price: '\$MXN 188.00',
+    photographer: 'SHEIN',
+    title: 'Camiseta',
+    details: 'Camiseta Navidad con estampado de letra - Talla: XS S M L',
+  ),
+  ImageDetails(
+    imagePath: 'images/20.jpeg',
+    price: '\$MXN 201.00',
+    photographer: 'SHEIN',
+    title: 'Camiseta',
+    details: 'Camiseta Navidad con estampado de perro - Talla: XS S M L',
+  ),
 ];
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.orange.shade100,
+      backgroundColor: Colors.purple,
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -136,10 +166,11 @@ class HomePage extends StatelessWidget {
               height: 40,
             ),
             Text(
-              'Paola Boutique',
+              'Pao Boutique',
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.w600,
+                fontFamily: 'pro',
                 color: Colors.white,
               ),
               textAlign: TextAlign.center,
